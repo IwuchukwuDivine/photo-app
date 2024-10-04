@@ -1,6 +1,9 @@
 # Frontend Engineer Test
 
-This project is part of an assignment for a frontend engineering test at Cowrywise. The objective is to create a mini Unsplash clone using Vue.js and the Unsplash API. The gallery dynamically loads images based on search criteria or random selection, with each image displaying the author’s name and location.
+This repository contains the implementation of a mini Unsplash clone, following the instructions for the Cowrywise frontend engineer test. The project uses Vue.js and demonstrates proficiency with various frontend technologies such as Vue component lifecycle management, API integration, CSS grid, and SCSS.
+
+## Project Overview
+The project leverages the Unsplash API to fetch and display photos in a staggered grid layout. Users can search for specific images via the search bar, with the search being triggered by either pressing the Enter key or clicking on the search icon.
 
 <img width="728" alt="Screenshot 2024-10-04 at 7 47 04 AM" src="https://github.com/user-attachments/assets/d13bc0c2-9d11-43f5-9474-c35982e57f69">
 <img width="728" alt="Screenshot 2024-10-04 at 7 46 46 AM" src="https://github.com/user-attachments/assets/64b7b11d-c9af-4e41-9187-6c6f4db4d94d">
