@@ -17,7 +17,7 @@ This project is part of an assignment for a frontend engineering test at Cowrywi
 ## Tech Stack
 
 - **NUXT.JS:** Used for building the frontend interface.
-- **VANILLA CSS:** Used for styling the components and layout.
+- **SCSS:** CSS preprocessor used for more structured and maintainable styles.
 - **Unsplash API:** Provides the images for the gallery.
 - **Axios:** Used to handle API calls and fetch image data.
 
