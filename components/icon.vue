@@ -27,7 +27,7 @@
   })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .icon-component{
   cursor: pointer;
 }

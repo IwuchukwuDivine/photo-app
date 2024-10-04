@@ -81,10 +81,23 @@ const handleSearch = async () =>{
 
 </script>
 
-<style scoped>
-.wrapper{
-  position: relative;
-}
+<style scoped lang="scss">
+  $primary-color: #5C6A82;
+  $secondary-color: #53657A;
+  $background-color: #DDE2E8;
+  $white-color: #FFFFFF;
+  @mixin box-shadow {
+    box-shadow: 
+      rgba(0, 0, 0, 0.1) 0 2px 2px,
+      rgba(0, 0, 0, 0.1) 0 4px 4px,
+      rgba(0, 0, 0, 0.1) 0 8px 8px,
+      rgba(0, 0, 0, 0.1) 0 16px 16px,
+      rgba(0, 0, 0, 0.1) 0 32px 32px,
+      rgba(0, 0, 0, 0.1) 0 64px 64px;
+  }
+  .wrapper {
+    position: relative;
+  }
 .grid-parent{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -101,7 +114,7 @@ const handleSearch = async () =>{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #DDE2E8;
+  background-color: $background-color;
   min-height: 300px;
 }
 .search-container{
@@ -111,33 +124,29 @@ const handleSearch = async () =>{
   padding: 26px;
   border-radius: 10px;
   width: 80%;
-  background-color: #FFFFFF;
-  box-shadow: 
-    rgba(0, 0, 0, 0.1) 0 2px 2px,
-    rgba(0, 0, 0, 0.1) 0 4px 4px,
-    rgba(0, 0, 0, 0.1) 0 8px 8px,
-    rgba(0, 0, 0, 0.1) 0 16px 16px,
-    rgba(0, 0, 0, 0.1) 0 32px 32px,
-    rgba(0, 0, 0, 0.1) 0 64px 64px
-    ;
+  background-color: $white-color;
+  @include box-shadow;
 }
 h4{
   font-size: 24px;
-  color: #53657A;
+  color: $secondary-color;
+
+  span {
+    color: $primary-color;
+  }
 }
-h4 span{
-  color: #6C7A89;
-}
+
 input{
   font-size: 20px;
-  color: #5C6A82;
+  color: $primary-color;
   font-weight: 500;
   background-color: transparent;
   flex: 1;
 
+  &::placeholder{
+    color: $primary-color;
+    font-weight: 500;
+  }
 }
-input::placeholder{
-  color: #5C6A82;
-  font-weight: 500;
-}
+
 </style>

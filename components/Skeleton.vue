@@ -12,27 +12,32 @@
 
 </script>
 
-<style scoped>
-  .skeleton {
-    animation: skeleton-loading 1s linear infinite alternate;
-  }
+<style scoped lang="scss">
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
 
-  @keyframes skeleton-loading {
-    0% {
-      background-color: hsl(0, 0%, 80%);
-    }
-    100% {
-      background-color: hsl(0, 0%, 95%);
-    }
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(0, 0%, 80%);
   }
-  .info p{
+  100% {
+    background-color: hsl(0, 0%, 95%);
+  }
+}
+
+.info {
+  
+  p {
     height: 20px;
     width: 60%;
     margin-bottom: 10px;
   }
-  .info span{
+
+  span {
     height: 20px;
-    display: block;
     width: 30%;
+    display: block;
   }
+}
 </style>

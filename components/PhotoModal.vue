@@ -23,7 +23,7 @@
  })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .modal-overlay{
   position: absolute;
   top: 0;
@@ -49,27 +49,30 @@
   border-radius: 15px;
   background-color: #FFFFFF;
   width: 95%;
-}
-img{
-  width: 100%;
-  object-fit: cover;
-  height: 600px;
-  border-radius: 15px 15px 0 0;
-  object-position: center;
+
+  img{
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    border-radius: 15px 15px 0 0;
+    object-position: center;
+  }
 }
 
 .photo-info{
   padding: 40px;
+
+  p{
+    color: #293649;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  span{
+    color: #91959B;
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
-.photo-info p{
-  color: #293649;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.photo-info span{
-  color: #91959B;
-  font-size: 16px;
-  font-weight: 400;
-}
+
 </style>

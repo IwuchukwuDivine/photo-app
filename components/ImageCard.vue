@@ -23,15 +23,19 @@ const props = defineProps({
 })
 </script>
 
-<style scoped>
-.info p{
-  font-size: 18px;
-  color: #F7F6F6;
+<style scoped lang="scss">
+.info{
+  p{
+    font-size: 18px;
+    color: #F7F6F6;
+  }
+
+  span{
+    font-size: 14px;
+    color: #867f7f;
+  }
 }
-.info span{
-  font-size: 14px;
-  color: #867f7f;
-}
+
 .overlays {
   position: absolute;
   top: 0;
