@@ -22,7 +22,7 @@ This project is part of an assignment for a frontend engineering test at Cowrywi
 
 ## Clone the repository:
 ```bash
-git clone 
+git clone https://github.com/IwuchukwuDivine/photo-app.git
 ```
 ## Install dependencies:
 ```bash
@@ -36,7 +36,7 @@ npm start
 
 
 ## Links 
-- **GitHub Repository:** 
+- **GitHub Repository:** https://github.com/IwuchukwuDivine/photo-app
 - **Hosted Page:** 
 - 
 ## Contributors:
